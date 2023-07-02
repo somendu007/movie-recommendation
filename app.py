@@ -11,7 +11,7 @@ lm_model = GPT2LMHeadModel.from_pretrained(model_name)
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
 #can also use langchain for better prompt engineering
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 @app.route('/')
 def home():
